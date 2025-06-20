@@ -1,5 +1,3 @@
-# todo-list-python
-
 # 📝 Python To-Do List App
 
 A simple, interactive command-line To-Do List application built with Python.  

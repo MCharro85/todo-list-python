@@ -7,6 +7,7 @@ This command-line app allows users to add, view, and delete tasks.
 tasks = []
 
 def show_menu():
+    """Displays the main menu options to the user."""
     print("\n TO-DO LIST MENU")
     print("1. Add Task")
     print("2. View Tasks")
@@ -14,6 +15,7 @@ def show_menu():
     print("4. Quit")
 
 def add_task():
+    """Prompts the user to enter a task and adds it to the list if valid."""
     task = input("Enter the task to add: ").strip()
     if task:
         tasks.append(task)
@@ -22,6 +24,7 @@ def add_task():
         print("Task cannot be empty.")
 
 def view_tasks():
+    """Displays all current tasks or notifies the user if the list is empty."""
     if not tasks:
         print("No tasks to show.")
     else:
@@ -30,6 +33,7 @@ def view_tasks():
             print(f"{i}. {task}")
 
 def delete_task():
+    """Allows the user to delete a task by its number in the list."""
     if not tasks:
         print("No tasks to delete.")
         return
@@ -46,6 +50,7 @@ def delete_task():
         print("Please enter a valid number.")
 
 def main():
+    """Main function to run the To-Do List app with user interaction loop."""
     print("\nWelcome to the To-Do List App! ")
     while True:
         show_menu()

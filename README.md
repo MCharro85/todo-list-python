@@ -28,9 +28,9 @@ All tasks are stored temporarily in a Python list during runtime.
 
 ## 🚀 How to Run
 
-1. Make sure Python is installed on your system (`python --version`)
-2. Clone this repository or download the `.py` file
-3. Open a terminal or command prompt
-4. Run the app:
-   ```bash
-   python todo.py
+1. Open a terminal or command prompt
+2. Make sure Python is installed on your system (`python --version`)Clone this repository or download the `.py` file
+3. Clone this repository or download the `.py` file
+4. Navigate to the folder where todo.py is saved
+5. Run the app:
+   python todo.py   
